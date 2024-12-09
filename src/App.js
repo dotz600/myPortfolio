@@ -4,17 +4,17 @@ import './App.css';
 function App() {
   const projects = [
     {
-      title: "Shopping Store Management & Client Side",
+      title: "Shopping Store",
       description: "Developed a comprehensive software solution for a shopping store using .NET (C# and WPF). Utilized Visual Studio and Git, applying software design principles including SOLID, OOP, LINQ, data binding, XML file handling, and multithreading.",
       technologies: [".NET", "C#", "WPF", "LINQ", "XML"],
-      githubLink: "https://github.com/dotz600/ShoppingStoreManagement",
+      githubLink: "https://github.com/dotz600/dotNet5783_1523_2008",
       demoLink: "#"
     },
     {
       title: "Ray Tracing Engine",
       description: "Developed an advanced ray tracing engine using Java that produces realistic 3D scene renderings. Implemented complex rendering algorithms with emphasis on software engineering principles including SOLID, design patterns, OOP, TDD, and Agile development (Scrum).",
       technologies: ["Java", "Ray Tracing", "Multithreading", "OOP"],
-      githubLink: "https://github.com/dotz600/RayTracingEngine",
+      githubLink: "https://github.com/dotz600/RayTracing1523_2008",
       demoLink: "#"
     },
     {
@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Dotan Ziv - Software Developer</h1>
+        <h1>David Ohev Tzion - Software Developer</h1>
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
@@ -76,8 +76,8 @@ function App() {
           <p>Get in touch with me via:</p>
           <div className="contact-links">
             <a href="https://github.com/dotz600" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/dotan-ziv" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="mailto:dotan.ziv@example.com">Email</a>
+            <a href="https://www.linkedin.com/in/david-ohev-tzion-9a947325a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:ohev.david@gmail.com">Email</a>
           </div>
         </section>
       </main>
