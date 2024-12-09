@@ -6,21 +6,21 @@ function App() {
     {
       title: "Shopping Store",
       description: "Developed a comprehensive software solution for a shopping store using .NET (C# and WPF). Utilized Visual Studio and Git, applying software design principles including SOLID, OOP, LINQ, data binding, XML file handling, and multithreading.",
-      technologies: [".NET", "C#", "WPF", "LINQ", "XML"],
+      technologies: [".NET", "C#", "WPF","multithreading", "OOP", "LINQ", "XML", "Git", "Visual Studio"],
       githubLink: "https://github.com/dotz600/dotNet5783_1523_2008",
       demoLink: "#"
     },
     {
       title: "Ray Tracing Engine",
       description: "Developed an advanced ray tracing engine using Java that produces realistic 3D scene renderings. Implemented complex rendering algorithms with emphasis on software engineering principles including SOLID, design patterns, OOP, TDD, and Agile development (Scrum).",
-      technologies: ["Java", "Ray Tracing", "Multithreading", "OOP"],
+      technologies: ["Java", "Multithreading", "OOP", "TDD", "Agile", "OOD", "IntelliJ", "Solid", "Design Patterns", "Graphics"],
       githubLink: "https://github.com/dotz600/RayTracing1523_2008",
       demoLink: "#"
     },
     {
       title: "Snake Game",
       description: "A classic console-based Snake game developed in C# .NET. Demonstrates fundamental game development concepts and programming skills in a simple yet engaging implementation.",
-      technologies: ["C#", ".NET", "Console Application"],
+      technologies: ["C#", ".NET", "OOP", "Visual Studio"],
       githubLink: "https://github.com/dotz600/SnakeGame",
       demoLink: "#"
     }
@@ -42,10 +42,41 @@ function App() {
       <main>
         <section id="about">
           <h2>About Me</h2>
-          <p>
-            I'm a passionate software developer with expertise in .NET, Java, and modern software engineering practices. 
-            I specialize in creating robust, efficient, and well-designed software solutions that solve real-world problems.
-          </p>
+          <div className="about-content">
+            <p>
+              I'm a passionate software developer with a robust background in creating innovative and efficient software solutions. 
+              My journey in technology is driven by a deep curiosity and a commitment to solving complex problems through clean, 
+              well-structured code.
+            </p>
+            <div className="skills-container">
+              <h3>Core Competencies</h3>
+              <div className="skills-grid">
+                {[
+                  "C++", 
+                  "C#", 
+                  "Java", 
+                  "Python", 
+                  "SQL Server",
+                  ".NET Development", 
+                  "Agile Methodologies", 
+                  "Problem Solving", 
+                  "Object-Oriented Programming", 
+                  "Multithreading", 
+                  "Software Testing", 
+                  "Data Structures", 
+                  "Algorithms", 
+                  "Version Control",
+                ].map((skill, index) => (
+                  <span key={index} className="skill-badge">{skill}</span>
+                ))}
+              </div>
+            </div>
+            <p>
+              With a strong foundation in software engineering principles and a passion for creating robust, 
+              scalable applications, I thrive on turning complex challenges into elegant, efficient solutions. 
+              My approach combines technical expertise with creative problem-solving.
+            </p>
+          </div>
         </section>
 
         <section id="projects">
