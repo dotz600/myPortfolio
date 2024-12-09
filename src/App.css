@@ -143,6 +143,26 @@ section h2 {
   background-color: var(--secondary-color);
 }
 
+.project-card .github-link {
+  background-color: #6e5494; /* GitHub purple */
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .github-link:hover {
+  background-color: #4f3d70; /* Darker purple on hover */
+}
+
+.project-card .github-link svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
 .contact-links {
   display: flex;
   justify-content: center;
