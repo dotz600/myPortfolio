@@ -1,6 +1,6 @@
 {
-  "short_name": "David Ohev Tzion",
-  "name": "David Ohev Tzion - Software Developer Portfolio",
+  "short_name": "Protfolio",
+  "name": "David Ohev Tzion",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#3498db",
+  "theme_color": "#000000",
   "background_color": "#ffffff"
 }
