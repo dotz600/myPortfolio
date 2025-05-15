@@ -30,8 +30,14 @@ function App() {
       technologies: ["C#", ".NET", "OOP", "Visual Studio"],
       githubLink: "https://github.com/dotz600/SnakeGame",
       demoLink: "#"
+    },
+    {
+      title: "Daily Job Notifier",
+      description: "A serverless solution that monitors job listings, filters by posting date, and delivers daily email notifications with new opportunities. Built using Google Cloud Functions, this automated system scrapes job listings, identifies positions posted within the last 24 hours, and sends concise email summaries with direct application links.",
+      technologies: ["Python", "Google Cloud Functions", "Google Cloud Scheduler", "BeautifulSoup4", "SMTP", "Web Scraping", "Serverless"],
+      githubLink: "https://github.com/dotz600/JobFilter",
+      demoLink: "#"
     }
-
   ];
 
   const GitHubIcon = () => (
