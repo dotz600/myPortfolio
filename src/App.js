@@ -25,8 +25,8 @@ function App() {
       demoLink: "#" // Replace with your demo link if available
     },
     {
-      title: "Custom C# Test Runner",
-      description: "A custom C# test runner built from scratch that demonstrates test discovery, execution, and result reporting without external frameworks. Features include discovery of methods marked with [Test], [TestCase], or [TestCaseWithResult], parameterized test execution, validation against expected results, exception handling, and comprehensive test reporting.",
+      title: "Custom Test Runner",
+      description: "A custom C# test runner built from scratch that demonstrates test discovery, execution, and result reporting without external frameworks. Features include discovery of methods marked with custom attribute, parameterized test execution, validation against expected results, exception handling, and comprehensive test reporting.",
       technologies: ["C#", ".NET", "Unit Testing", "Reflection", "Software Design", "Test Framework"],
       githubLink: "https://github.com/dotz600/TestRunner",
       demoLink: "#"
